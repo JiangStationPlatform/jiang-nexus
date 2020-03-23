@@ -9,6 +9,6 @@ services:
     volumes:
       - ./data:/nexus-data
     networks:
-      - zipkin_network
+      - nexus_network
 networks:
-    zipkin_network:
+  nexus_network:
